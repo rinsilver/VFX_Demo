@@ -725,7 +725,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.25,"y":2.0,"z":1.0}'
+      m_SerializableObject: '{"x":0.25,"y":2.0,"z":10.0}'
     m_Space: 2147483647
   m_Property:
     name: Scale
@@ -862,7 +862,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":14.24313735961914,"g":2.8235294818878176,"b":0.501960813999176,"a":1.0}'
+      m_SerializableObject: '{"r":5.992156982421875,"g":1.1921569108963013,"b":0.21960784494876862,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -1062,7 +1062,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"4191dabf6f62bbc4b9d8842b6013fd85","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"0cf2d8a1963abdd418c3da7ddfaad104","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: _MainTex
@@ -1234,7 +1234,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-3.0,"y":0.0}'
+      m_SerializableObject: '{"x":-1.0,"y":0.0}'
     m_Space: 2147483647
   m_Property:
     name: _DistortionSpeed
@@ -1334,7 +1334,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.3
+      m_SerializableObject: 0.015
     m_Space: 2147483647
   m_Property:
     name: _DistortionAmount
@@ -1368,7 +1368,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 30
+      m_SerializableObject: 38.56
     m_Space: 2147483647
   m_Property:
     name: _DistortionScale
@@ -2080,9 +2080,9 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link:
-    - context: {fileID: 8926484042661614686}
-      slotIndex: 0
     - context: {fileID: 8926484042661614603}
+      slotIndex: 0
+    - context: {fileID: 8926484042661614686}
       slotIndex: 0
     - context: {fileID: 8926484042661614749}
       slotIndex: 0
@@ -2188,7 +2188,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.45490196347236636,"g":1.4117647409439088,"b":2.305882453918457,"a":1.0}'
+      m_SerializableObject: '{"r":0.0,"g":3.6392157077789308,"b":6.964705944061279,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -2388,7 +2388,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"4191dabf6f62bbc4b9d8842b6013fd85","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"0cf2d8a1963abdd418c3da7ddfaad104","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: _MainTex
@@ -2660,7 +2660,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.2
+      m_SerializableObject: 0.056
     m_Space: 2147483647
   m_Property:
     name: _DistortionAmount
@@ -2694,7 +2694,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 30
+      m_SerializableObject: 21.45
     m_Space: 2147483647
   m_Property:
     name: _DistortionScale
@@ -3017,7 +3017,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -3365,8 +3365,8 @@ MonoBehaviour:
   m_Owners:
   - {fileID: 8926484042661614662}
   - {fileID: 8926484042661614684}
-  - {fileID: 8926484042661614686}
   - {fileID: 8926484042661614603}
+  - {fileID: 8926484042661614686}
   - {fileID: 8926484042661614749}
   dataType: 0
   capacity: 32
@@ -3472,7 +3472,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":1.0,"g":0.1816146820783615,"b":0.0,"a":1.0}'
+      m_SerializableObject: '{"r":0.0,"g":0.0,"b":0.0,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -3672,7 +3672,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"4191dabf6f62bbc4b9d8842b6013fd85","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"0cf2d8a1963abdd418c3da7ddfaad104","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: _MainTex
@@ -3978,7 +3978,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 30
+      m_SerializableObject: 10
     m_Space: 2147483647
   m_Property:
     name: _DistortionScale
@@ -4301,7 +4301,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -5695,7 +5695,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614886}
   - {fileID: 8926484042661614839}
   - {fileID: 8926484042661614881}
-  m_UIPosition: {x: 3138, y: 659}
+  m_UIPosition: {x: 3138, y: 711}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8280,7 +8280,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3.5
+      m_SerializableObject: 4
     m_Space: 2147483647
   m_Property:
     name: B
@@ -8413,7 +8413,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":25.799999237060548,"y":5.800000190734863,"z":1.7999999523162842}'
+      m_SerializableObject: '{"x":12.899998664855957,"y":2.9041881561279299,"z":0.9455496668815613}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -8647,7 +8647,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615024}
   m_ExposedName: Loop
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
